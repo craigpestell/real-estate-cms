@@ -26,9 +26,7 @@ export async function Footer() {
   return (
     <footer className={classes.footer}>
       <Gutter className={classes.wrap}>
-        <Link href="/">
-          &copy; 2024 R&G Group
-        </Link>
+        <Link href="/">&copy; 2024 R&G Group</Link>
         <nav className={classes.nav}>
           <ThemeSelector />
           {navItems.map(({ link }, i) => {
